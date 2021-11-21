@@ -1,7 +1,9 @@
-function recurse() {
-    // function code
-    recurse();
-    // function code
+function factorial(num)
+{
+var j=1;
+for (var i = 2; i &lt;= num; i++)
+j = j * i;
+return j;
 }
 
-recurse();
+factorial(7); //output 5040
