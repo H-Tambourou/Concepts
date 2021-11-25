@@ -25,6 +25,7 @@ function findIndex(arr1, match){
         return -1;
     }
 }// Runtime is O(N)
+
 const quickSort = list => {
   if (list.length < 2) 
     return list;
@@ -42,4 +43,4 @@ const quickSort = list => {
     pivot, 
     ...quickSort(right)
   ];
-};
+}; // Best case is O(N log N), Worst case O(N^2)
