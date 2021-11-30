@@ -1,12 +1,12 @@
 const list = {
     head: {
-        value: 6
+        value: 6,
         next: {
-            value: 10                                             
+            value: 10,                                           
             next: {
-                value: 12
+                value: 12,
                 next: {
-                    value: 3
+                    value: 3,
                     next: null	
                     }
                 }
