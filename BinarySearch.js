@@ -4,7 +4,7 @@
 let x = 70; 
 const arr = [1, 5, 6, 9, 15, 20, 35, 34, 50, 70, 89, 90, 99, 100, 101];
 
-function binarySearch(x, arr){
+function binarySearch(num, array){
     let start =0;
     let end = array.length -1;
     
