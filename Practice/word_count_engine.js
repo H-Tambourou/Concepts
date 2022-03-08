@@ -24,10 +24,8 @@ function wordCountEngine(document) {
        map[wordArray[i]]++;
      }
      wordArray = [...new Set(wordArray)];
-     //console.log(map)
      wordArray.sort((a,b) => map[b] - map[a]);
      wordArray.forEach((word) => res.push([word, map[word].toString()]));
-     res = [...new Set(res)];
-     return res
+     return console.log(res)
  }
 wordCountEngine("Practice makes perfect. you'll only get Perfect by practice. just practice!   ")
