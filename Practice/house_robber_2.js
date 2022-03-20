@@ -1,5 +1,5 @@
 const rob = function(nums) {
-    if(nums.length <= 3) return Math.max(...nums);
+    if(nums.length < 3) return Math.max(...nums);
     
     const caseBuilder = (arr) => {
         if(arr.length < 3) return Math.max(...arr);
