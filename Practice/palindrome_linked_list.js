@@ -9,3 +9,5 @@ const isPalindrome = function(head) {
     const revStr = str.split('').reverse().join('');
     return str == revStr;
 };
+// time complexity O(n)
+// space complexity O(n)
