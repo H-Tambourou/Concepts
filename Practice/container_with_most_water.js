@@ -17,3 +17,5 @@ function maxArea(in1){
     return max; 
 }
 //maxArea(height) -> 35
+// Time complexity is O(n)
+// Space complexity is O(1)     
