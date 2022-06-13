@@ -32,3 +32,5 @@ const threeSum = function(nums) {
     }
     return res;
 };//[[-1,-1,2],[-1,0,1]]
+// Time complexity O(N^2)
+// Space complexity O(N)
