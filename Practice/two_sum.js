@@ -9,3 +9,5 @@ const twoSum = function(nums, target) {
         map.set(num, i);
     }
 };
+//Time complexity is O(N)
+//Space  complexity is O(N)
