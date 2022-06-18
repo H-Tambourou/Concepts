@@ -11,3 +11,5 @@ const removeDuplicates = function(nums) {
     }
     return nums.length;
 };
+//Time complexity is O(N)
+//Space complexity is O(1)
