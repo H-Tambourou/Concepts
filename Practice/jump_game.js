@@ -9,3 +9,5 @@ const canJump = function(nums) {
         if(max>= nums.length - 1) return true
     }
 };
+// Time complexity is O(N) 
+// Space complexity is O(1)
